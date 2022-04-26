@@ -1,14 +1,14 @@
-$(function() {
-    $('.banner-carrosel').slick({
-        dots: true
-    });
+$(function () {
+  $('.banner-carrosel').slick({
+    dots: true
+  });
 });
 
-$(function() {
-    $('.slider-produtos').slick({
-        dots: false,
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1
-    });
+$(function () {
+  $('.slider-produtos').slick({
+    dots: false,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1
+  });
 });
